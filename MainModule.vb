@@ -10,9 +10,9 @@ Module MainModule
 
     Sub Main(args As String())
         Try
-            Dim ip As String = "192.168.1.38"
+            Dim ip As String = "xxx.xxx.x.xx"
 
-            Dim port As Integer = 8080
+            Dim port As Integer = xxxx
 
             _client = New TcpClient(ip, port)
 
